@@ -1,0 +1,52 @@
+body{
+  background: #ff00a9;
+  font-family: "Gill Sans", sans-serif;
+}
+h1{
+  text-align:center;
+}
+
+
+
+
+
+.outer {
+    background: linear-gradient(45deg,#ff00a9,#f65a53,#e68619);
+    padding: 0px;
+
+}
+.outer:hover{
+
+}
+.wrap {
+    margin: 0 auto;
+}
+.sub {
+    padding: 10px 25px 10px 25px;
+    width: 500px;
+    height: 50px;
+    display: table-cell;
+    border-right: solid #a175c4 1px;
+    font-size: 25px;
+    font-family: "Gill Sans", sans-serif;
+    text-align: center;
+
+}
+.sub:last-child {
+    border: 0px;
+
+}
+.sub:hover{
+  background: #a175c4;
+  transition: background-color .5s;
+
+}
+
+a:link{
+  color:black;
+  text-decoration:none;
+}
+a:visited{
+  color:black;
+  text-decoration:none;
+}
