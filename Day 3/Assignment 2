@@ -1,0 +1,17 @@
+background{
+    background-color:grey;
+}
+.topnav{
+    background-color:black;
+}
+
+.topnav a{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+.topnav a:hover {
+    color:white;
+    background-color: orange;
+}

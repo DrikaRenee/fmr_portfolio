@@ -1,0 +1,118 @@
+body{
+    background-color:rgb(169, 165, 165);
+}
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    text-align: center;
+
+  }
+
+
+  .topnav a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 30px 20px 30px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family:"arial";
+    font-weight: lighter;
+    display: inline-block;
+  }
+
+  .topnav a:hover {
+    background-color: orange;
+    color: black;
+  }
+
+  .center {
+      margin:auto;
+      border: 3px solid hotpink;
+      display:block;
+      width:25%;
+      height:300px;
+      position: relative;
+      top: 25px;
+
+
+  }
+
+
+td{
+  padding: 100px 150px;
+}
+  box1 > picture {
+      border: 5px solid black;
+      width:75%;
+      height:50%;
+      float: left;
+      border-radius: 12px;
+      position:relative;
+      top: 100px;
+      left: 100px;
+      justify-self:end;
+
+  }
+  .wrapper{
+    display:grid;
+    width: 100%;
+    height: 600px;
+    grid-template-columns:50% 50%;
+  }
+  .box1{
+
+    height: 50%;
+    float:left;
+
+  }
+
+  .box2{
+
+    height: 50%;
+    float:left;
+
+  }
+
+
+  #box-container {
+    display: flex;
+    flex-direction:column;
+    position:relative;
+
+
+
+  }
+  #box-1 {
+    background-color: hotpink;
+    height: 50%;
+    font-family:Arial;
+
+  }
+
+
+  #box-2 {
+    background-color: pink;
+    height: 50%;
+    font-family:courier;
+
+  }
+
+  #box-3 {
+    background-color: lightpink;
+    height: 50%;
+    font-family:Georgia;
+  }
+/*.box-content{
+  position:absolute;
+  bottom:0px;*/
+}
+
+  .button {
+    position:relative;
+    top:0px;
+    left: 1050px;
+    color: orange;
+    height:30px;
+    border-radius:6px;
+    color:white;
+  }
