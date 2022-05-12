@@ -1,0 +1,86 @@
+.flexbox{
+background-color: lightgrey;
+display:flex;
+height:400px;
+
+justify-content:space-between;
+
+
+
+}
+.sub1{
+  background-color: green;
+  width: 30%;
+}
+.sub2{
+  background-color: orange;
+}
+.sub3{
+  background-color: blue;
+  width:30px;
+
+}
+
+.sub4{
+  background-color: yellow;
+  height: 30px;
+}
+
+
+
+/////
+
+
+
+.heroimagebox{
+  background-color:orange;
+  height:400px;
+  postion:relative;
+
+}
+.heroimagebox img{
+  width:100%;
+  height:100%;
+
+}
+.messagebox{
+
+  width:30%;
+  position:absolute;
+  padding:4%;
+  right:4%;
+  text-align:center;
+  background-color: rgba(98,95,99,.5);
+  top:30%;
+
+}
+
+
+
+
+////
+
+
+
+/* older results
+.row{
+  background-color: lightgrey;
+  border:2px dotted limegreen;
+  box-sizing:border-box;
+  height: 300px;
+  width:60%;
+  margin-bottom:10%;
+}
+.box{ /* add float to sublevel only
+  border:3px solid black;
+  background-color: blue;
+  height: 200px;
+  margin:1%;
+  width: 30%;
+  text-align: center;
+  float:left;
+  box-sizing:border-box;
+
+
+}
+*/
